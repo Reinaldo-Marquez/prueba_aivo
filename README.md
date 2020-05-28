@@ -11,4 +11,7 @@ Los pasos para su ejecuion son los siguientes:
 
 4)Ejecutar el comando <b>php artisan migrate --seed</b> (este comando lo usaremos de esta forma para obviar la ejecucion de un comando posterior que seria "php artisan db:seed").
 
-5)Ejecutar el comando <b>php artisan serve</b> para levantar el servidor que trae integrado laravel. Si no se desea usar este servidor se puede obviar este paso.</p>
+5)Ejecutar el comando <b>php artisan serve</b> para levantar el servidor que trae integrado laravel. Si no se desea usar este servidor se puede obviar este paso.
+
+Una vez funcionando correctamente el proyecto en el servidor se procedera a acceder a la ruta del endpoint que en este caso sera <b<api/youtube</b>. Para hacer una busqueda en esta api por medio del titulo de un archivo, se pasara como parametro <b>api/youtube?title=nombre_del_video</b>.
+</p>
