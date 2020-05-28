@@ -1,4 +1,4 @@
-<h1>Documentacion para prueba:</h1>
+<h1>Documentacion para prueba de Aivo:</h1>
 
 <p> El presente proyecto se encuentra realizado usando <b>php 7.2.5</b> y su framework <b>Laravel 7.0</b>.
 Los pasos para su ejecuion son los siguientes:
