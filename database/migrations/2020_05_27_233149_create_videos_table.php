@@ -14,8 +14,7 @@ class CreateVideosTable extends Migration
     public function up()
     {
         Schema::create('videos', function (Blueprint $table) {
-            $table->id();
-            $table->string('video_id')->required();
+            $table->string('id')->primary();
             $table->date('published_at')->required();
             $table->string('title')->required();
             $table->text('description')->required();
